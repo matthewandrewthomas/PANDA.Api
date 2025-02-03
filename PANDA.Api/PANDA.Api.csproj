@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <None Remove="PANDA.db" />
+    <None Remove="PANDA.db-shm" />
+    <None Remove="PANDA.db-wal" />
   </ItemGroup>
 
   <ItemGroup>
