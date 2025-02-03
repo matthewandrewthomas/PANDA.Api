@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PANDA.Api", "PANDA.Api\PANDA.Api.csproj", "{8154E7B9-4361-4E8C-82B0-35A78D3D1A23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PANDA.Api.Tests", "PANDA.Api.Tests\PANDA.Api.Tests.csproj", "{5DEF6A77-59A6-4D78-976A-AEBA9AC377CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8154E7B9-4361-4E8C-82B0-35A78D3D1A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8154E7B9-4361-4E8C-82B0-35A78D3D1A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8154E7B9-4361-4E8C-82B0-35A78D3D1A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8154E7B9-4361-4E8C-82B0-35A78D3D1A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEF6A77-59A6-4D78-976A-AEBA9AC377CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEF6A77-59A6-4D78-976A-AEBA9AC377CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEF6A77-59A6-4D78-976A-AEBA9AC377CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEF6A77-59A6-4D78-976A-AEBA9AC377CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F06C869C-DBB0-4130-AB49-B803AC6FFA90}
+	EndGlobalSection
+EndGlobal

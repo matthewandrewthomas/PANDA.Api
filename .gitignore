@@ -1,0 +1,52 @@
+# Ignore Visual Studio temporary files, build results, and
+# common settings directory
+.vs/
+.vs/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# User-specific files (VS Code)
+.vscode/
+.vscode/*
+.vscode/.*
+
+# Build results
+[Dd]ebug*/
+[Dd]ebug/**
+[Dd]ebug.*
+[Rr]elease*/
+[Rr]elease/**
+[Rr]elease.*
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Bb]in/**
+obj/
+obj/**
+
+# Enable "build" folder in the GitHub diff
+!src/build/
+
+# MSTest test Results
+TestResults
+TestResults/**
+
+# NUNIT
+*.VisualState.xml
+TestResult
+
+logs
+logs/**
+*.db
+*.db**
