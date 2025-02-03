@@ -2,7 +2,17 @@
 
 This is my solution to the [Aire Logic Patient Appointment Backend Tech Test](https://github.com/airelogic/tech-test-portal/tree/main/Patient-Appointment-Backend)
 
+## Table of Contents
+- [Approach](#approach)
+- [Assumptions](#assumptions)
+- [Next Steps](#next-steps)
+- [Setup Guide](#setup-guide)
+- [Interacting with the Web API](#interacting-with-the-web-api)
+- [Troubleshooting](#troubleshooting)
+
 ## Approach
+
+Due to time constraints I have focussed on implementing the core functionality and ensuring that the API is production ready, e.g., with error handling and logging. This has meant that there isn't as good test coverage as I would like, no CI/CD pipeline, etc.
 
 Given the requirements specified the following decisions have been made:
 
