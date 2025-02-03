@@ -12,13 +12,13 @@ This is my solution to the [Aire Logic Patient Appointment Backend Tech Test](ht
 
 ## Approach
 
-Due to time constraints I have focussed on implementing the core functionality and ensuring that the API is production ready, e.g., with error handling and logging. This has meant that there isn't as good test coverage as I would like, no CI/CD pipeline, etc.
+Due to time constraints I have focussed on implementing the core functionality and ensuring that the API is production ready, e.g. with error handling and logging. This means test coverage is not as high as I would like, no CI/CD pipeline, etc.
 
-Given the requirements specified the following decisions have been made:
+Given the requirements specified I have made the following decisions:
 
-- Considering the client's past burnout with vendor lock-in and their love for smaller frameworks, I have chosen to use ASP.NET Core. It's open-source, cross-platform, and lightweight.
+- Considering the client's past burnout with vendor lock-in and their love for smaller frameworks, I have chosen to use ASP.NET Core. It's open-source, cross-platform and lightweight.
 - To make the PANDA database-agnostic, Entity Framework Core (EF Core) has been used.
-- SQLite has been used for development due to its simplicity, but for production it should be relatively painless to switch to another provider (e.g., PostgreSQL or SQL Server).
+- I have chosen SQLite for development due to its simplicity, but for production it should be relatively painless to switch to another provider (e.g., PostgreSQL or SQL Server).
 - Since they're eyeing foreign markets, I have used ASP.NET Core's in-built support for localization and globalization. By using resource files (.resx), we can store localized strings for different cultures.
 - UTF-8 encoding has been used throughout the application and database, to ensure we support a wide range of international characters.
 - Data Transfer Objects (DTOs) have been used to decouple the API layer and data layer, which adds a layer of security by controlling exposed data.
